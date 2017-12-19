@@ -1,7 +1,8 @@
 'use strict';
 import FilterView from './filterView';
 import * as HUD from '../ProgressHUD/HUD/'
-import React, { Component, PropTypes } from 'react';
+import React, { Component, } from 'react';
+import PropTypes from 'prop-types';
 import {
     View,
     Text,

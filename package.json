@@ -1,11 +1,40 @@
 {
-  "name": "react-native-wxui",
-  "version": "0.1.4",
-  "description": "A UI package for React Native",
-  "main": "index.js",
-  "scripts": {
-    "test": "eslint index.js"
+  "_from": "git+https://github.com/ribuluo000/react-native-wxui.git",
+  "_id": "react-native-wxui@0.1.4",
+  "_inBundle": false,
+  "_integrity": "sha1-5jCXeRkgJaG05Ktof7OjvctBwJ4=",
+  "_location": "/react-native-wxui",
+  "_phantomChildren": {
+    "static-container": "1.2.0"
   },
+  "_requested": {
+    "type": "git",
+    "raw": "react-native-wxui@git+https://github.com/ribuluo000/react-native-wxui.git",
+    "name": "react-native-wxui",
+    "escapedName": "react-native-wxui",
+    "rawSpec": "git+https://github.com/ribuluo000/react-native-wxui.git",
+    "saveSpec": "git+https://github.com/ribuluo000/react-native-wxui.git",
+    "fetchSpec": "https://github.com/ribuluo000/react-native-wxui.git",
+    "gitCommittish": "master"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://github.com/ribuluo000/react-native-wxui.git#1351882bed955b995cd70567591524c68128fab7",
+  "_spec": "react-native-wxui@git+https://github.com/ribuluo000/react-native-wxui.git",
+  "_where": "/Users/nick/Downloads/git/rnGit/rnPardPush/rnPardPush/pardpush",
+  "author": {
+    "name": "cnwxsoft"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "moment": "^2.17.1",
+    "prop-types": "^15.6.0",
+    "react-native-animatable": "^1.1.0",
+    "react-native-root-siblings": "^1.1.2"
+  },
+  "deprecated": false,
+  "description": "A UI package for React Native",
   "keywords": [
     "react-native",
     "react-component",
@@ -17,12 +46,11 @@
     "ui",
     "animation"
   ],
-  "author": "cnwxsoft",
   "license": "MIT",
-  "dependencies": {
-    "moment": "^2.17.1",
-    "react-native-animatable": "^1.1.0",
-    "prop-types": "^15.6.0",
-    "react-native-root-siblings": "^1.1.2"
-  }
+  "main": "index.js",
+  "name": "react-native-wxui",
+  "scripts": {
+    "test": "eslint index.js"
+  },
+  "version": "0.1.4"
 }

@@ -1,7 +1,8 @@
 'use strict';
 import RootSiblings from 'react-native-root-siblings';
 import * as Animatable from 'react-native-animatable';
-import React, { Component, PropTypes } from 'react';
+import React, { Component, } from 'react';
+import PropTypes from 'prop-types';
 import {
     View,
     Text,

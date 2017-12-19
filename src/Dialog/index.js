@@ -1,5 +1,5 @@
 'use strict';
-import React, { Component, PropTypes } from 'react';
+import React, { Component, } from 'react';
 import {
     View,
     Text,
@@ -11,6 +11,8 @@ import {
 import RootSiblings from 'react-native-root-siblings';
 import * as Animatable from 'react-native-animatable';
 import * as Util from '../Util';
+import PropTypes from 'prop-types';
+
 
 export function showDialog(options, onConfirm, onCancel) {
     Dialog.showDialog(options, onConfirm, onCancel);

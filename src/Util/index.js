@@ -7,8 +7,9 @@ import {
 } from 'react-native';
 import React, {
     Component,
-    PropTypes
 } from 'react';
+import PropTypes from 'prop-types';
+
 global.React = React;
 
 UIManager.setLayoutAnimationEnabledExperimental && UIManager.setLayoutAnimationEnabledExperimental(true);

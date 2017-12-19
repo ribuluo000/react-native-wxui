@@ -13,6 +13,8 @@ import * as Animatable from 'react-native-animatable';
 import * as Util from '../Util';
 import PropTypes from 'prop-types';
 
+console.log(PropTypes);
+
 
 export function showActionSheet(options, onPress) {
     ActionSheet.showActionSheet(options, onPress);
@@ -143,6 +145,8 @@ class ActionSheet extends Component {
     })
 
     componentDidMount() {
+        console.log(PropTypes);
+
         this.props.getInstance && this.props.getInstance(this);
     }
 

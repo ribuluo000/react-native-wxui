@@ -1,5 +1,5 @@
 'use strict';
-import React, { Component, PropTypes } from 'react';
+import React, { Component,  } from 'react';
 import {
     View,
     Text,
@@ -12,6 +12,8 @@ import RootSiblings from 'react-native-root-siblings';
 import * as Animatable from 'react-native-animatable';
 import * as Util from '../Util';
 import PopMenu from './popMenu.js';
+import PropTypes from 'prop-types';
+
 
 export function showPopMenuBox(menu, onPress) {
     PopMenuBox.showPopMenuBox(menu, onPress);
