@@ -22,6 +22,7 @@
   "dependencies": {
     "moment": "^2.17.1",
     "react-native-animatable": "^1.1.0",
+    "prop-types": "^15.6.0",
     "react-native-root-siblings": "^1.1.2"
   }
 }

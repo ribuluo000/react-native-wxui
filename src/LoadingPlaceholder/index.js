@@ -1,11 +1,13 @@
 'use strict';
-import React, { Component, PropTypes } from 'react';
+import React, { Component, } from 'react';
 import {
     View,
     StyleSheet,
     Animated,
     Easing
 } from 'react-native';
+import PropTypes from 'prop-types';
+
 export default class LoadingPlaceholder extends Component {
 
     componentDidMount() {

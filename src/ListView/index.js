@@ -1,7 +1,9 @@
 'use strict';
 import GiftedListView from './GiftedListView';
 import LoadingPlaceholder from '../LoadingPlaceholder';
-import React, { Component, PropTypes } from 'react';
+import React, { Component, } from 'react';
+import PropTypes from 'prop-types';
+
 import {
     StyleSheet,
     Dimensions,
