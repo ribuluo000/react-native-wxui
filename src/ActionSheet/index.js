@@ -19,6 +19,12 @@ console.log(PropTypes);
 export function showActionSheet(options, onPress) {
     ActionSheet.showActionSheet(options, onPress);
 }
+export function hideActionSheet() {
+    ActionSheet.hideActionSheet();
+}
+export function isActionSheetShowing() {
+    return ActionSheet.instance;
+}
 const styles = StyleSheet.create({
     maskView: {
         backgroundColor: 'rgba(0,0,0,0.5)',

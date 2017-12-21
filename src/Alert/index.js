@@ -16,6 +16,12 @@ import PropTypes from 'prop-types';
 export function showAlert(options, onConfirm, onCancel) {
     Alert.showAlert(options, onConfirm, onCancel);
 }
+export function hideAlert() {
+    Alert.hideAlert();
+}
+export function isAlertShowing() {
+    return Alert.instance;
+}
 const styles = StyleSheet.create({
     maskView: {
         backgroundColor: 'rgba(0,0,0,0.5)',

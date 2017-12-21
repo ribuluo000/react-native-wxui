@@ -18,6 +18,12 @@ import PropTypes from 'prop-types';
 export function showPopMenuBox(menu, onPress) {
     PopMenuBox.showPopMenuBox(menu, onPress);
 }
+export function hidePopMenuBox() {
+    PopMenuBox.hidePopMenuBox();
+}
+export function isPopMenuBoxShowing() {
+    return PopMenuBox.instance;
+}
 
 
 const styles = StyleSheet.create({

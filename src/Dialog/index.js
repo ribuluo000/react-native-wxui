@@ -17,6 +17,12 @@ import PropTypes from 'prop-types';
 export function showDialog(options, onConfirm, onCancel) {
     Dialog.showDialog(options, onConfirm, onCancel);
 }
+export function hideDialog() {
+    Dialog.hideDialog();
+}
+export function isDialogShowing() {
+    return Dialog.instance;
+}
 const styles = StyleSheet.create({
     maskView: {
         backgroundColor: 'rgba(0,0,0,0.5)',
